@@ -1,0 +1,5 @@
+---
+
+- port: 80
+  # passwd: Your-password
+  method: aes-128-gcm
