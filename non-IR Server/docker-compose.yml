@@ -1,0 +1,9 @@
+services:
+  trojan:
+    image: p4gefau1t/trojan-go:latest
+    container_name: trojan
+    restart: always
+    # ports:
+    #   - 4145:4145
+    volumes:
+      - ./config.json:/etc/trojan-go/config.json

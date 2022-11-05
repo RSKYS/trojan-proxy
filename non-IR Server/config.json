@@ -1,0 +1,16 @@
+{
+  "run_type": "server",
+  "local_addr": "0.0.0.0",
+  "local_port": 4145,
+  "log_level": 3,
+  "password": [
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  ],
+  "transport_plugin": {
+    "enabled": true,
+    "type": "plaintext"
+  },
+  "router": {
+    "enabled": false
+  }
+}
